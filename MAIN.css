@@ -1,0 +1,65 @@
+/* DIE CSS-DATEI */
+body {		
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-weight: 100;	
+	text-align: center;
+}
+
+#zusatz {
+	background-color: #ee77aa;
+	color: #646464;
+	margin: 10px;
+	line-height: 1.5em;
+}
+
+main {
+	background-color: #f0f7e1;
+	padding: 0.5em;
+	margin: auto;	
+	height: auto;
+	border-radius: 0px 0.5em 0.5em;
+	border: 1px solid;
+	border-color: #339933;
+    text-align: center;	
+}
+
+header, footer {
+	background-color: #f0f7e1;
+	padding: 0.5em;
+	margin: 10px;	
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #339933;
+    text-align: center;	
+}
+
+#letters {/* Buchstaben */}
+
+#desc { /* Description(Eng:Beschreibung) */ }
+
+
+article {
+	flex: 6;
+	background-color: #eeeeee;
+	padding: 0.5em;
+	margin: 10px;
+	border-radius: 0px 0.5em 0.5em;
+	border: 1px solid;
+	border-color: #666666;	
+	text-align: center;
+}
+
+#menu a:link, a:visited {
+  background-color: white;
+  color: blue;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menu a:hover, a:active {
+  background-color: black;
+  color: lightblue;
+}
